@@ -109,3 +109,52 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+.home-container {
+  font-family: Arial, sans-serif;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero p {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  background: white;
+  color: #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #ddd;
+}
+
+/* Sections */
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section li {
+  margin: 10px 0;
+  font-size: 18px;
+}
